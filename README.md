@@ -1,5 +1,6 @@
 # AKS.ME README
 [![Maintainability](https://api.codeclimate.com/v1/badges/610524b9bc52d96580e1/maintainability)](https://codeclimate.com/github/spaquet/the-pew/maintainability)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F4f7u-47nm%2Fthe-pew.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F4f7u-47nm%2Fthe-pew?ref=badge_shield)
 
 ## CREDITS
 Logos [https://www.svgrepo.com/vectors/google/]
@@ -30,3 +31,6 @@ TMP - Boring Rails [https://boringrails.com/articles/rails-dom-id-the-most-under
 TMP - Dynamic sorting with streams [https://github.com/hotwired/turbo/issues/109]
 
 TMP - EL Transition [https://github.com/mmccall10/el-transition]
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F4f7u-47nm%2Fthe-pew.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F4f7u-47nm%2Fthe-pew?ref=badge_large)
