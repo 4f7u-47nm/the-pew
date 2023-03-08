@@ -37,7 +37,7 @@ gem 'redis', '~> 4.0'
 # gem 'kredis'
 
 # Add Noticed to support notifications [https://github.com/excid3/noticed]
-gem "noticed", "~> 1.5"
+gem "noticed", "~> 1.5", ">= 1.5.9"
 
 # Adding support to View Component (better than partials ;-) ) [https://github.com/github/view_component]
 gem 'view_component'
