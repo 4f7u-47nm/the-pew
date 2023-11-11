@@ -19,7 +19,7 @@ gem 'puma', '~> 5.0'
 gem 'jsbundling-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails'
+gem 'turbo-rails', '>= 1.3.0'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
@@ -37,7 +37,7 @@ gem 'redis', '~> 4.0'
 # gem 'kredis'
 
 # Add Noticed to support notifications [https://github.com/excid3/noticed]
-gem "noticed", "~> 1.5"
+gem "noticed", "~> 1.6", ">= 1.6.0"
 
 # Adding support to View Component (better than partials ;-) ) [https://github.com/github/view_component]
 gem 'view_component'
@@ -94,10 +94,10 @@ gem 'nokogiri', '~> 1.13.6'
 gem 'down', '~> 5.0'
 
 # Tracking changes using PaperTrail [https://github.com/paper-trail-gem/paper_trail]
-gem 'paper_trail'
+gem 'paper_trail', '>= 14.0.0'
 
 # Active storage validations [https://github.com/igorkasyanchuk/active_storage_validations]
-gem 'active_storage_validations', '~> 0.9.8'
+gem 'active_storage_validations', '~> 1.0.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem 'image_processing', '~> 1.2'
@@ -137,7 +137,7 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
