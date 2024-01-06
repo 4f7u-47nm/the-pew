@@ -40,7 +40,7 @@ gem 'redis', '~> 4.0'
 gem "noticed", "~> 1.5"
 
 # Adding support to View Component (better than partials ;-) ) [https://github.com/github/view_component]
-gem 'view_component'
+gem 'view_component', '>= 3.9.0'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # Replaced by argon2 and custom authentication solution based on [https://stevepolito.design/blog/rails-authentication-from-scratch/]
