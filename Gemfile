@@ -61,7 +61,7 @@ gem 'omniauth', '~> 2.1.0'
 # Adding Google Sign-in support
 gem 'omniauth-google-oauth2' , '~> 1.1.1'
 # Required when not using Devise
-gem 'omniauth-rails_csrf_protection' 
+gem 'omniauth-rails_csrf_protection' , '>= 1.0.2'
 
 # Adding Pundit to manage authorizations [https://github.com/varvet/pundit]
 gem 'pundit'
