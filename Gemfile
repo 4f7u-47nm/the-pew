@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.3'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -37,7 +37,7 @@ gem 'redis', '~> 4.0'
 # gem 'kredis'
 
 # Add Noticed to support notifications [https://github.com/excid3/noticed]
-gem "noticed", "~> 1.5"
+gem "noticed", "~> 1.6", ">= 1.6.0"
 
 # Adding support to View Component (better than partials ;-) ) [https://github.com/github/view_component]
 gem 'view_component'
