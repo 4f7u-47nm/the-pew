@@ -54,7 +54,7 @@ gem 'argon2', '~> 2.1.1'
 # [https://github.com/caxlsx/caxlsx_rails]
 # [https://dev.to/yarotheslav/export-from-database-table-to-excel-workbook-level-1-55jd]
 gem 'caxlsx'
-gem 'caxlsx_rails'
+gem 'caxlsx_rails', '>= 0.6.4'
 
 # Adding OAuth2 support [https://github.com/omniauth/omniauth]
 gem 'omniauth', '~> 2.1.0'
