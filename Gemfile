@@ -146,8 +146,8 @@ group :development do
   # gem "spring"
 
   # Add support to Rubocop [https://github.com/rubocop/rubocop]
-  gem 'rubocop', '~> 1.30', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop', '~> 1.37', '>= 1.37.0', require: false
+  gem 'rubocop-rails', '>= 2.16.1', require: false
 
   # Add support to Brakeman [https://github.com/presidentbeef/brakeman]
   # Vulnerability scanner
@@ -157,8 +157,8 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
-  gem 'selenium-webdriver'
-  gem 'webdrivers'
+  gem 'selenium-webdriver', '>= 4.5.0'
+  gem 'webdrivers', '>= 5.1.0'
 end
 
 
