@@ -147,7 +147,7 @@ group :development do
 
   # Add support to Rubocop [https://github.com/rubocop/rubocop]
   gem 'rubocop', '~> 1.30', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop-rails', '>= 2.30.0', require: false
 
   # Add support to Brakeman [https://github.com/presidentbeef/brakeman]
   # Vulnerability scanner
