@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.2.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -119,10 +119,10 @@ gem 'validate_url'
 
 # Tracking
 # Ahoy [https://github.com/ankane/ahoy]
-gem 'ahoy_matey'
+gem 'ahoy_matey', '>= 5.4.0'
 
 # Group date [https://github.com/ankane/groupdate]
-gem 'groupdate'
+gem 'groupdate', '>= 6.6.0'
 
 # Chart [https://chartkick.com]
 gem 'chartkick'
