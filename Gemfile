@@ -4,10 +4,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.1.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem 'sprockets-rails'
+gem 'sprockets-rails', '>= 3.5.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.4'
@@ -16,19 +16,19 @@ gem 'pg', '~> 1.4'
 gem 'puma', '~> 5.0'
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
-gem 'jsbundling-rails'
+gem 'jsbundling-rails', '>= 1.1.0'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails'
+gem 'turbo-rails', '>= 1.3.0'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem 'stimulus-rails'
+gem 'stimulus-rails', '>= 1.1.1'
 
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
-gem 'cssbundling-rails'
+gem 'cssbundling-rails', '>= 1.1.2'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.12.0'
 
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.0'
@@ -37,10 +37,10 @@ gem 'redis', '~> 4.0'
 # gem 'kredis'
 
 # Add Noticed to support notifications [https://github.com/excid3/noticed]
-gem "noticed", "~> 1.5"
+gem "noticed", "~> 1.6", ">= 1.6.0"
 
 # Adding support to View Component (better than partials ;-) ) [https://github.com/github/view_component]
-gem 'view_component'
+gem 'view_component', '>= 2.72.0'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # Replaced by argon2 and custom authentication solution based on [https://stevepolito.design/blog/rails-authentication-from-scratch/]
@@ -53,18 +53,18 @@ gem 'argon2', '~> 2.1.1'
 # Export to Excel
 # [https://github.com/caxlsx/caxlsx_rails]
 # [https://dev.to/yarotheslav/export-from-database-table-to-excel-workbook-level-1-55jd]
-gem 'caxlsx'
-gem 'caxlsx_rails'
+gem 'caxlsx', '>= 3.3.0'
+gem 'caxlsx_rails', '>= 0.6.4'
 
 # Adding OAuth2 support [https://github.com/omniauth/omniauth]
-gem 'omniauth', '~> 2.1.0'
+gem 'omniauth', '~> 2.1.1'
 # Adding Google Sign-in support
-gem 'omniauth-google-oauth2' , '~> 1.1.1'
+gem 'omniauth-google-oauth2' , '~> 1.1.2'
 # Required when not using Devise
-gem 'omniauth-rails_csrf_protection' 
+gem 'omniauth-rails_csrf_protection' , '>= 1.0.2'
 
 # Adding Pundit to manage authorizations [https://github.com/varvet/pundit]
-gem 'pundit'
+gem 'pundit', '>= 2.3.0'
 # Adding Rolify to manage roles [https://github.com/RolifyCommunity/rolify]
 gem 'rolify', '~> 6.0.0'
 
@@ -94,10 +94,10 @@ gem 'nokogiri', '~> 1.13.6'
 gem 'down', '~> 5.0'
 
 # Tracking changes using PaperTrail [https://github.com/paper-trail-gem/paper_trail]
-gem 'paper_trail'
+gem 'paper_trail', '>= 14.0.0'
 
 # Active storage validations [https://github.com/igorkasyanchuk/active_storage_validations]
-gem 'active_storage_validations', '~> 0.9.8'
+gem 'active_storage_validations', '~> 1.0.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem 'image_processing', '~> 1.2'
@@ -137,7 +137,7 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -147,7 +147,7 @@ group :development do
 
   # Add support to Rubocop [https://github.com/rubocop/rubocop]
   gem 'rubocop', '~> 1.30', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop-rails', '>= 2.16.1', require: false
 
   # Add support to Brakeman [https://github.com/presidentbeef/brakeman]
   # Vulnerability scanner
@@ -156,9 +156,9 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'capybara'
-  gem 'selenium-webdriver'
-  gem 'webdrivers'
+  gem 'capybara', '>= 3.38.0'
+  gem 'selenium-webdriver', '>= 4.5.0'
+  gem 'webdrivers', '>= 5.1.0'
 end
 
 
